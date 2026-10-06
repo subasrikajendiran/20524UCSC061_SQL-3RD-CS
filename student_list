@@ -1,0 +1,10 @@
+CREATE TABLE Student (
+    Student_ID INT,
+    Student_Name VARCHAR(50),
+    Department VARCHAR(30),
+    Mark INT
+);
+INSERT INTO Student VALUES (101, 'Suba', 'B.Sc CS', 85);
+INSERT INTO Student VALUES (102, 'Moni', 'B.Sc CS', 78);
+INSERT INTO Student VALUES (103, 'Kavi', 'B.Sc CS', 92);
+SELECT * FROM Student;
